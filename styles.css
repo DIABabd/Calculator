@@ -1,0 +1,98 @@
+/* Set the font size and family for the calculator */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bold; 
+}
+
+/* Style the container for the calculator */
+.container {
+  position: relative;
+}
+
+/* Style the calculator box */
+.Calculatior {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 465px;
+  height: 600px;
+}
+
+/* Style the result bar */
+.result-bar {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  width: 320px;
+}
+
+input[type="button"][name="first-row-buttons"] {
+  border-radius: 30px;
+  background-color: #dc2f2f;
+  width: 215px;
+}
+
+/* Style the buttons */
+input[type="button"] {
+  background-color: 	#fd520f;
+  border: none;
+  border-radius: 9px;
+  color: #d8d8d8;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 6px;
+  padding: 10px;
+  width: 100px;
+  height: 90px;
+}
+
+input[type="button"]:hover {
+  background-color: #ff742f;
+}
+
+input[type="button"]:active  {
+  background-color: #fc7e40;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 435px;
+}
+
+/* Style the clear and delete buttons */
+.clear, .delete {
+  background-color: #dc2f2f;
+  color: #fff;
+}
+
+.clear:hover, .delete:hover {
+  background-color: #f52020;
+}
+
+/* Style the equals button */
+#forth-sen input[value="="] {
+  background-color: #fd520f;
+}
+
+#forth-sen input[value="="]:hover {
+  background-color: #ff742f;
+}
